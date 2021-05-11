@@ -5,6 +5,24 @@
     <title></title>
 </head>
 <body>
-
+    <form method="post" action="/">
+        <label>用户名:</label>
+        <input type="text" name="userName" value="请输入用户名" />
+        <br />
+        <label>密&nbsp&nbsp&nbsp码:</label>
+        <input type="text" name="userPassword" value="请输入密码" />
+        <br />
+        <label>其&nbsp&nbsp&nbsp他:</label>ss
+        <input type="password" name="userPassword1" disabled="disabled" value="请输入密码" />
+        <br />
+        <br />
+        <label>其&nbsp&nbsp&nbsp他1:</label>
+        <input type="password" name="userPassword1" readonly="readonly" value="请输入密码" />
+        <br />
+        <input type="hidden" name="otherMessage" value="defaultValue" />
+        <input type="reset" value="提交" />
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </form>
 </body>
 </html>
